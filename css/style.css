@@ -94,3 +94,9 @@ a {
     background-color: #ffc0cb;
     min-height: 500px;
 }
+
+.GreenBox {
+    background-color: #228b22;
+    min-height: 800px;
+    width: 100%;
+}
