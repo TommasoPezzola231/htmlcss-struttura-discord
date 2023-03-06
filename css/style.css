@@ -71,3 +71,26 @@ a {
     justify-content: center;
 }
 /********End Header*********/
+
+/*********Main***********/
+
+.backgroundGray {
+    background-color: #d3d3d3;
+}
+
+.box {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.BlueBox {
+    width: 60%;
+    background-color: #1e90ff;
+    min-height: 500px;
+}
+
+.PinkBox {
+    width: 40%;
+    background-color: #ffc0cb;
+    min-height: 500px;
+}
