@@ -9,14 +9,21 @@
 header {
     background-color: #add8e6;
     min-height: 100px;
-    padding: 1rem;
 }
 
 .flexContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+}
+
+.justifycontentSB {
+    justify-content: space-between;
+}
+
+#header1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .backgroundGoldenrod {
@@ -46,4 +53,20 @@ a {
 #login {
     width: calc(100% / 5);
     align-self: flex-end;
+}
+
+#header2 {
+    background-color: #00008b;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.boxpink {
+    background-color: #ee82ee;
+    width: 47%;
+    min-height: 400px;
+}
+
+.justifycontentC {
+    justify-content: center;
 }
