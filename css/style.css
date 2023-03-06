@@ -1,0 +1,49 @@
+/***************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/***************/
+
+header {
+    background-color: #add8e6;
+    min-height: 100px;
+    padding: 1rem;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backgroundGoldenrod {
+    background-color: #daa520;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.layout {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+#logo {
+    width: calc(100% / 5);
+}
+
+#link {
+    width: calc((100% / 5) * 3);
+    align-self: center;
+}
+
+#login {
+    width: calc(100% / 5);
+    align-self: flex-end;
+}
