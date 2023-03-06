@@ -100,3 +100,48 @@ a {
     min-height: 800px;
     width: 100%;
 }
+/********End Main************/
+
+/********Footer***********/
+
+
+footer {
+    background-color: #23272a;
+}
+
+.boxed {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.RoseBox {
+    background-color: #f08080;
+    width: 30%;
+    min-height: 600px;
+}
+
+.AquamarineBox {
+    background-color: #20b2aa;
+    width: calc((100% - 30%) / 4);
+    min-height: 600px;
+}
+
+hr {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.backgroundfooter {
+    background-color: #7fffd4;
+}
+
+#logoFooter {
+    background-color: #ffb6c1;
+    padding: 0.5rem;
+}
+
+#bottoneFooter {
+    background-color: #ffb6c1;
+    padding: 0.5rem;
+}
